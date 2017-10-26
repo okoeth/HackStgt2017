@@ -1,0 +1,97 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+  margin: 0 auto;
+  padding: 15px;
+  max-width: 50em;
+}
+
+body, input, button {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  color: #555;
+}
+
+h1 {
+  text-align: center;
+  clear: both;
+}
+
+form {
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 12px 12px;
+  margin: 4px 0;
+  box-sizing: border-box;
+  font-size: 1.5em;
+}
+
+form button {
+  float: right;
+  margin: 4px 0 15px 0;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+form button, body > button {
+  font-size: 1.5em;
+  padding: 10px 0 10px 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #dddddd;
+}
+
+td, th {
+  border: none;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.clear {
+  clear: both;
+}
+
+#monthTitle, .navigationButton {
+  display: inline-block;
+}
+
+#monthTitle {
+  width: 70%;
+}
+
+.navigationButton {
+  font-size: 1em;
+  vertical-align: middle;
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 14.5%;
+  margin-top: -10px;
+}
+
+@media screen and (max-width: 375px) {
+  .navigationButton {
+    width: 13.5%;
+    margin-top: -6px;
+  }
+
+  #monthTitle {
+    font-size: 1.5em;
+  }
+}
